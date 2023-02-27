@@ -10,7 +10,7 @@ def subtraction(x, y):
 def multiplication(x, y):
     return x * y
 
-def division (x, y):
+def divide (x, y):
     return x / y
 
 while True:
@@ -37,7 +37,7 @@ while True:
 
         elif math_operation == '4':
             logging.info(f"Dzielę {num_x} przez {num_y}")
-            print ("Wynik to: ", division(num_x, num_y))
+            print ("Wynik to: ", divide(num_x, num_y))
     
         another_operation = input("Czy chcesz działać dalej ? 1 - Tak, 2 - Nie: ")
         if another_operation == '1':
